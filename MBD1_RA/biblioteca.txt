@@ -1,0 +1,43 @@
+create database biblioteca;
+
+use biblioteca;
+
+create table biblioteca();
+
+select * from biblioteca;
+
+insert into biblioteca
+(LIVROS,AUTORES,CATEGORIAS,LEITORES,EMPRESTIMOS)
+values('Pretuncio','Mateus1221_','Romance','henriqueV2G0d',2);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('Pretuncio', 'Mateus1221_', 'Romance', 'henriqueV2G0d', 2);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('O Sol é Para Todos', 'Harper Lee', 'Literatura Clássica', 'julianaX5J', 3);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('1984', 'George Orwell', 'Ficção Científica', 'eduardo_Q9R', 5);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('O Hobbit', 'J.R.R. Tolkien', 'Fantasia', 'anaLuisa_89', 4);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('A Arte da Guerra', 'Sun Tzu', 'História', 'paulo_XY8', 1);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('Sapiens', 'Yuval Noah Harari', 'Ciência e Tecnologia', 'carlaV7_', 6);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('Como Fazer Amigos e Influenciar Pessoas', 'Dale Carnegie', 'Autoajuda', 'joaoZ5W', 2);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('Cem Anos de Solidão', 'Gabriel García Márquez', 'Literatura Clássica', 'lucasM1N', 3);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('A Menina que Roubava Livros', 'Markus Zusak', 'Suspense/Thriller', 'mariaG6H', 4);
+
+INSERT INTO biblioteca (LIVROS, AUTORES, CATEGORIAS, LEITORES, EMPRESTIMOS)
+VALUES ('O Pequeno Príncipe', 'Antoine de Saint-Exupéry', 'Infantil', 'paulinha_23', 7);
+
+select *from biblioteca;
