@@ -1,0 +1,30 @@
+where DESCRICAO like '%martelo%'
+and CODIGO_CLASSIFICACAO !=001;
+
+select * from classificacao;
+select * from produto
+where CODIGO_CLASSIFICACAO = 002
+and UNIDADE = 'CX' 
+and QUANTIDADE < 5;
+
+select * from produto
+where CODIGO_CLASSIFICACAO = 002 
+and quantidade >= 10 
+and quantidade <= 50 
+and UNIDADE not like '%CX%';
+
+select * from classificacao
+where DESCRICAO like '%uniforme%';
+
+select * from produto
+where DESCRICAO like '%camiseta%'
+or DESCRICAO like '%bola%'
+and CODIGO_CLASSIFICACAO = 21 
+or CODIGO_CLASSIFICACAO = 8;
+
+select * from classificacao;
+show tables;
+
+select * from produto
+where UNIDADE like '%PCT%'
+and (QUANTIDADE VALOR)
