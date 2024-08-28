@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class calculoDeReajusteDeSalarioInformandoReajuste {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner prompt = new Scanner(System.in);
         System.out.print("Informe o salario: ");
-        double salario = sc.nextDouble();
+        double salario = prompt.nextDouble();
         System.out.print("Informe o % de reajuste: ");
-        double percReajuste = sc.nextDouble();
+        double percReajuste = prompt.nextDouble();
 
         double salarioReajustado= salario + (salario/100*percReajuste);
 

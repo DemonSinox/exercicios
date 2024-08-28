@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class exemplosDeIf {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner prompt = new Scanner(System.in);
 
-        System.out.println("Informe um valor inteiro: ");
-        Integer numeroInteiro = sc.nextInt();
+        System.out.print("Informe um valor inteiro: ");
+        Integer numeroInteiro = prompt.nextInt();
 
-        if (numeroInteiro%2 == 0){
-            System.out.println("Numero "+numeroInteiro+" é par");
-        }else {
-            System.out.println("Numero "+numeroInteiro+" é inpar");
+        if(numeroInteiro%2 == 0){
+            System.out.println("O numero "+numeroInteiro+" é um numero Par");
+        }else{
+            System.out.println("O numero "+numeroInteiro+" é um numero ImPar");
         }
     }
 }

@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class calculoDeReajusteDeSalarioFixo {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner prompt = new Scanner(System.in);
         System.out.print("Informe o salario: ");
-        double salario = sc.nextDouble();
+        double salario = prompt.nextDouble();
         double salarioReajustado = salario;
         //quem ganha ate 1412 - reajuste de 12%
         //quem ganha ate 3000 - reajuste de 9%
